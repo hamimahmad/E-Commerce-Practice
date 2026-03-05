@@ -4,11 +4,11 @@ import Container from './Container'
 const Header = () => {
   return (
     <>
-      <header>
+      <header className='bg-black'>
         <Container>
-            <div className='bg-black text-white flex'>
-                <h5>Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%! <a href="#">ShopNow</a> </h5>
-                <div>
+            <div className='text-white flex py-3'>
+                <h5 className='w-[80%]'>Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%! <a href="#">ShopNow</a> </h5>
+                <div className='flex justify-items-end'>
                     <select name="" id="">
                         <option value="">English</option>
                         <option value="">Bengali</option>
