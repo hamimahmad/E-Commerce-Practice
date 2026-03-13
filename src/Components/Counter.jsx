@@ -15,6 +15,9 @@ const Counter = () => {
 
     const handleSubs = () => {
         const subs = count-5 
+        if (count == 0) {
+            return
+        }
         setCount(subs)
     }
 
