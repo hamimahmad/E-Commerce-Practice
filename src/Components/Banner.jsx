@@ -1,5 +1,6 @@
 import React from 'react'
 import Counter from './Counter'
+import SentencePrinter from './SentencePrinter'
 
 const Banner = () => {
   return (
@@ -9,6 +10,8 @@ const Banner = () => {
       <p className='text-center p-5'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus natus earum magni molestias voluptate? Culpa consequatur deleniti dolore! Adipisci voluptates eos reiciendis minima? Incidunt maiores nihil, expedita eos nisi alias.</p>
 
     <Counter/>
+
+    <SentencePrinter/>
 
     </div>
   )
