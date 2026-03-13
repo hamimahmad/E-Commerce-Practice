@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className="bg-red-400 ">
       <div className="mx-auto container py-10">
         <div className="flex justify-between">
-          <h4>this it the Footer</h4>
+          <h4 className="text-3xl">The Footer</h4>
           <ul>
             <li>
               <h5 className="text-lg font-bold">Navigations</h5>
