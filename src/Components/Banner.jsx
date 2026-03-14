@@ -11,7 +11,7 @@ const Banner = () => {
 
     <Counter/>
 
-    <SentencePrinter/>
+    {/* <SentencePrinter/> */}
 
     </div>
   )
