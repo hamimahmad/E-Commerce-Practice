@@ -27,7 +27,6 @@ const Counter = () => {
       <button onClick={handleAdd} className='bg-white px-4 py-2 my-3'>Add</button>
       <button onClick={handleReset} className='bg-white px-4 py-2 my-3 ml-3'>Reset</button>
       <button onClick={handleSubs} className='bg-white px-4 py-2 my-3 ml-3'>Substract</button>
-
     </div>
   )
 }

@@ -11,7 +11,7 @@ const Posts = ({postsPromise}) => {
     <div>
         <Container>
             <div className='bg-cyan-300 p-5'>
-                <h2 className='text-3xl text-center'>All Posts are here : {posts.length}</h2>
+                <h2 className='text-3xl text-center'>All Posts are here  below : {posts.length}</h2>
                 {
                     posts.map(post => <Post post={post} ></Post>)
                 }

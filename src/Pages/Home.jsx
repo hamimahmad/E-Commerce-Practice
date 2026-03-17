@@ -24,8 +24,6 @@ const Home = () => {
         <Posts postsPromise={postsPromise} ></Posts>
       </Suspense>
 
-      <Navbar/>
-
       <Footer/>
 
     </>
