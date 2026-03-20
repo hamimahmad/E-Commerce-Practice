@@ -12,6 +12,8 @@ const Header = () => {
                     <select name="" id="">
                         <option value="">English</option>
                         <option value="">Bengali</option>
+                        <option value="">Japanese</option>
+                        <option value="">Arabic</option>
                     </select>
                 </div>
             </div>
